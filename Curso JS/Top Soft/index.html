@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Top Soft Emissor</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https:/	/cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+      charset="utf-8"
+    ></script>
+  </head>
+  <body>
+    <!--wrapper start-->
+    <div class="wrapper">
+      <!--Inicio Cabeçalho-->
+      <div class="header">
+        <div class="header-menu">
+          <div class="title">Top <span>Emissor</span></div>
+          <div class="sidebar-btn">
+            <i class="fas fa-bars"></i>
+          </div>
+          <ul>
+            <li>
+              <a href="#"><i class="fas fa-search"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-bell"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--Fim Cabeçalho-->
+      <!--Inicio da sidebar -->
+      <div class="sidebar">
+        <div class="sidebar-menu">
+          <center class="profile">
+            <img src="user.png" alt="" />
+            <p>fernandojose21@gmail.com</p>
+            <p class="text-empresa">Empresas em uso</p>
+            <div class="select">
+              <select name="format" id="format">
+                 <option value="pdf">PDF</option>
+                 <option value="txt">txt</option>
+                 <option value="epub">ePub</option>
+                 <option value="fb2">fb2</option>
+                 <option value="mobi">mobi</option>
+              </select>
+          </center>
+          <li class="item">
+            <a href="#" class="menu-btn">
+              <i class="fas fa-desktop"></i><span>Dashboard</span>
+            </a>
+          </li>
+          <li class="item" id="profile">
+            <a href="#profile" class="menu-btn">
+              <i class="fas fa-user-circle"></i
+              ><span
+                >Produtos <i class="fas fa-chevron-down drop-down"></i
+              ></span>
+            </a>
+            <div class="sub-menu">
+              <a href="#"
+                ><i class="fas fa-shopping-bag"></i><span>Produto</span></a
+              >
+              <a href="#"><i class="fas fa-tags"></i><span>Categoria</span></a>
+              <a href="#"
+                ><i class="fas fa-cart-plus"></i><span>Complementos</span></a
+              >
+							<a href="#"
+                ><i class="fas fa-hamburger"></i><span>Insumo</span></a
+              >
+							<a href="#"
+                ><i class="far fa-window-maximize"></i><span>Tamanho</span></a
+              >
+							<a href="#"
+                ><i class="fas fa-puzzle-piece"></i><span>Subdivisão</span></a
+              >
+							<a href="#"
+                ><i class="far fa-file"></i><span>Grupo Impressão</span></a
+              >
+            </div>
+          </li>
+          <li class="item" id="messages">
+            <a href="#messages" class="menu-btn">
+              <i class="fas fa-envelope"></i
+								><span
+									>Cadastro <i class="fas fa-chevron-down drop-down"></i
+								></span>
+            </a>
+            <div class="sub-menu">
+              <a href="#"
+                ><i class="fas fa-address-card"></i><span>Parceiro</span></a
+              >
+							<a href="#"
+							><i class="fas fa-credit-card"></i
+							><span>Formas de Pagamento</span>
+              <a href="#"><i class="fas fa-user"></i><span>Usuários</span></a>
+              <a href="#"><i class="fas fa-car"></i><span>Veículo</span></a>
+              <a href="#"><i class="fas fa-bars"></i><span>Séries </span></a>
+            </div>
+          </li>
+          <li class="item" id="settings">
+            <a href="#settings" class="menu-btn">
+              <i class="fas fa-calculator"></i
+                ><span>Fiscal <i class="fas fa-chevron-down drop-down"></i></span>
+              </a>
+            </a>
+            <div class="sub-menu">
+              <a href="#"
+                  ><i class="fas fa-lock"></i><span>Inutilizar Numeração</span></a
+                >
+                <a href="#"
+                  ><i class="fas fa-compass"></i
+                  ><span>Consultar Documento</span></a
+                >
+                <a href="#"
+                  ><i class="fas fa-file-invoice-dollar"></i
+                  ><span>Regras de ICMS</span></a
+                >
+                <a href="#"
+                  ><i class="fas fa-file-invoice-dollar"></i
+                  ><span>Regras de Pis/Confins</span></a
+                >
+                <a href="#"
+                  ><i class="fas fa-file-invoice-dollar"></i
+                  ><span>Regras de IPI</span></a
+                >
+                <a href="#"
+                  ><i class="fas fa-file-invoice-dollar"></i
+                  ><span>MVA/FCP</span></a
+                >
+                <a href="#"
+                  ><i class="fas fa-file-invoice-dollar"></i
+                  ><span>Regras para CT-e</span></a
+                >
+                <a href="#"
+                  ><i class="fas fa-file-invoice-dollar"></i
+                  ><span>Observações ao Fisco</span></a
+                >
+                <a href="#"
+                  ><i class="fas fa-file-invoice-dollar"></i><span>Senar</span></a
+                >
+                <a href="#"><i class="fas fa-language"></i><span>Senar</span></a>
+            </div>
+          </li>
+          <li class="item" id="doc">
+            <a href="#doc" class="menu-btn">
+              <i class="far fa-file"></i
+                ><span>Documentos <i class="fas fa-chevron-down drop-down"></i></span>
+              </a>
+            </a>
+            <div class="sub-menu">
+              <a href="#"
+                  ><i class="fas fa-lock"></i><span>Orçamento</span></a
+                >
+                <a href="#"
+                  ><i class="fas fa-compass"></i
+                  ><span>Documentos</span></a
+                >
+                <a href="#"
+                  ><i class="fas fa-file-invoice-dollar"></i
+                  ><span>Notas Complementar</span></a
+                >
+                <a href="#"
+                  ><i class="fas fa-file-invoice-dollar"></i
+                  ><span>PDV</span></a
+                >
+                <a href="#"
+                  ><i class="fas fa-file-invoice-dollar"></i
+                  ><span>Venda Rápida</span></a
+                >
+                <a href="#"
+                  ><i class="fas fa-file-invoice-dollar"></i
+                  ><span>Contato</span></a
+                >
+            </div>
+          </li>
+          <li class="item" id="dev">
+            <a href="#dev" class="menu-btn">
+              <i class="fas fa-exchange-alt"></i
+                ><span>Devolução <i class="fas fa-chevron-down drop-down"></i></span>
+              </a>
+            </a>
+            <div class="sub-menu">
+              <a href="#"
+                  ><i class="fas fa-shopping-bag"></i><span>Venda</span></a
+                >
+                <a href="#"
+                  ><i class="fas fa-compass"></i
+                  ><span>Compra</span></a
+                >
+            </div>
+          </li>
+          <li class="item" id="compra">
+            <a href="#compra" class="menu-btn">
+              <i class="fas fa-shopping-cart"></i
+                ><span>Compra <i class="fas fa-chevron-down drop-down"></i></span>
+              </a>
+            </a>
+            <div class="sub-menu">
+              <a href="#"
+                  ><i class="fas fa-cart-plus"></i><span>Notas de Entrada</span></a
+                >
+                <a href="#"
+                  ><i class="fas fa-cart-plus"></i
+                  ><span>Manifesto de Destinatário - MDS</span></a
+                >
+            </div>
+          </li>
+          <li class="item" id="trans">
+            <a href="#trans" class="menu-btn">
+              <i class="fas fa-truck"></i
+                ><span>Transporte <i class="fas fa-chevron-down drop-down"></i></span>
+              </a>
+            </a>
+            <div class="sub-menu">
+              <a href="#"
+                  ><i class="fas fa-truck"></i><span>CT-e</span></a
+                >
+                <a href="#"
+                  ><i class="fas fa-truck"></i
+                  ><span>CT-e OS</span></a
+                >
+                <a href="#"
+                  ><i class="fas fa-truck"></i
+                  ><span>CT-e OS</span></a
+                >
+                <a href="#"
+                  ><i class="fas fa-truck"></i
+                  ><span>MDF-e</span></a
+                >
+            </div>
+          </li>
+          <li class="item" id="cont">
+            <a href="#cont" class="menu-btn">
+              <i class="fas fa-dollar-sign"></i
+                ><span>Contábil<i class="fas fa-chevron-down drop-down"></i></span>
+              </a>
+            </a>
+            <div class="sub-menu">
+              <a href="#"
+                  ><i class="fas fa-download"></i><span>Baixar XML</span></a
+                >
+            </div>
+          </li>
+          <li class="item" id="rela">
+            <a href="#rela" class="menu-btn">
+              <i class="fas fa-file-alt"></i
+                ><span>Relatorios<i class="fas fa-chevron-down drop-down"></i></span>
+              </a>
+            </a>
+            <div class="sub-menu">
+              <a href="#"
+                  ><i class="fas fa-download"></i><span>Documentos</span></a
+                >
+              <a href="#"
+                ><i class="fas fa-truck"></i><span>MDF-e</span></a
+              >
+              <a href="#"
+              ><i class="fas fa-truck"></i><span>CT-e</span></a
+              >
+              <a href="#"
+                  ><i class="fas fa-truck"></i><span>CT-e e OS</span></a
+              >
+              <a href="#"
+                  ><i class="fas fa-box"></i><span>Produtos</span></a
+              >
+              <a href="#"
+                  ><i class="fas fa-user"></i><span>Parceiros</span></a
+              >
+              <a href="#"
+                  ><i class="fas fa-shopping-bag"></i><span>Vendas Agrupada</span></a
+              >
+              <a href="#"
+                  ><i class="fas fa-star"></i><span>Avaliação de Cliente</span></a
+              >
+            </div>
+          </li>
+          <li class="item">
+            <a href="#" class="menu-btn">
+              <i class="fas fa-shopping-basket"></i><span>Pedidos</span>
+            </a>
+          </li>
+          <li class="item">
+            <a href="#" class="menu-btn">
+              <i class="fas fa-mobile-alt"></i><span>Delivery</span>
+            </a>
+            <li class="item">
+              <a href="#" class="menu-btn">
+                <i class="fas fa-user-cog"></i><span>Configurações</span>
+              </a>
+          <li class="profile">
+            <div class="profile-details">
+              <div class="name_job">
+                <div class="name">Fernando José</div>
+                <div class="job">Gerente de vendas</div>
+              </div>
+            </div>
+              <a href="#"><i class="fas fa-power-off" id="log_out"></i></a>
+          </li>  
+        </div>
+      </div>
+      <!--Fim da Sidebar-->
+      <!--Inicio do conteudo-->
+      <div class="main-container">
+        <div class="card">
+          <div class="card01">
+						<div class="card02">
+							<div class="card03">
+									<div class="item01">
+										<div class="colum-card">
+											<div class="money" style="font-size: 18;" >R$ 0,00</div>
+											<div class="text-card">Vendas Mensal</div>
+										</div>
+										<div class="figura">
+											<a href="#"
+												><i class="fas fa-dollar-sign"></i></i></a>
+
+										</div>
+									</div>
+									<div class="item02">
+										<div class="colum-card">
+											<div class="money" style="font-size: 18;" >R$ 0,00</div>
+											<div class="text-card">Vendas Semanais</div>
+										</div>
+										<div class="figura">
+											<a href="#"
+												><i class="fas fa-dollar-sign"></i></i></a>
+
+										</div>
+									</div>
+									<div class="item03">
+										<div class="colum-card">
+											<div class="money" style="font-size: 18;" >R$ 0,00</div>
+											<div class="text-card">Delivery Mensal</div>
+										</div>
+										<div class="figura">
+											<a href="#"
+												><i class="fas fa-dollar-sign"></i></i></a>
+
+										</div>
+									</div>
+								<div class="item04">
+									<div class="colum-card">
+										<div class="money" style="font-size: 18;" >55</div>
+										<div class="text-card">Clientes Ativos</div>
+									</div>
+									<div class="figura">
+										<a href="#"
+											><i class="fas fa-dollar-sign"></i></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+        <div class="text-pos ">
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged.
+          </p>
+        </div>
+        <div class="card">
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged.
+          </p>
+        </div>
+      </div>
+      <!--Final do conteudo-->
+    </div>
+    <!--Final do codigo-->
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('.sidebar-btn').click(function () {
+          $('.wrapper').toggleClass('collapse')
+        })
+      })
+    </script>
+  </body>
+</html>
